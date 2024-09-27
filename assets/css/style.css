@@ -4,6 +4,13 @@
 
 /* --------------------------------- General */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 /* --------------------------------- Colour */
 
 /* --------------------------------- Header */
@@ -17,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    top: 0;
 }
 #logo {
     font-family: "Nanum Myeongjo", sans-serif;
@@ -33,7 +41,10 @@ header {
     font-weight: 500;
 }
 
-
+/* --------------------------------- Main Content */
+main {
+    margin-top: 75px;
+}
 /* --------------------------------- Jumbotron */
 
 /* --------------------------------- Hover.css imports for styling */
