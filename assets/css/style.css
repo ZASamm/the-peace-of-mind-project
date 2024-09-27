@@ -57,14 +57,21 @@ main {
     background-position: bottom;
     background-size: 50%;
     background-position-x: right;
+    display: absolute;
 }
 
 .jumbotron {
-    opacity: 0.5;
+    opacity: 0.7;
     width: 80%;
     color: #6D7278;
-    margin-top: 24vh;
 }
+
+/* Removes awkward gap on right of page */
+
+.hero-wrapper {
+    margin: 5px 0px 5px 0px;
+} 
+
 /* --------------------------------- Hover.css imports for styling */
 .hvr-grow {
     display: inline-block;
@@ -81,4 +88,35 @@ main {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.3);
+}
+
+/* --------------------------------- Hover.css imports for styling */
+
+@media (max-width: 575.98px) {
+
+/* --------------------------------- Hero */    
+
+/* removes and adjusts some content from the jumbotron for better user experience on xs devices */
+.hidden-content {
+    display: none;
+}
+
+.hero {
+    background-color: #c1e7e3;
+    background-image: url("../images/hands-holding-a-smiling-face.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: bottom;
+    background-size: 50%;
+    background-position-x: right;
+}
+
+.jumbotron {
+    opacity: 0.7;
+    width: 80%;
+    color: #6D7278;
+    margin-top: 15vh;
+}
+
 }
