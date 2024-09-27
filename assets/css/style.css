@@ -26,6 +26,7 @@ header {
     align-items: baseline;
     top: 0;
 }
+
 #logo {
     font-family: "Nanum Myeongjo", sans-serif;
     font-weight: 700;
@@ -33,12 +34,40 @@ header {
 
 .logo-link {
     text-decoration: none;
-    color: black
+    color: #3a3a3a;
 }
+
+
+/* --------------------------------- Nav */
+
 
 .nav-item {
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
+}
+
+/* nav toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* --------------------------------- Main Content */
@@ -63,14 +92,8 @@ main {
 .jumbotron {
     opacity: 0.7;
     width: 80%;
-    color: #6D7278;
+    color: #6D7278;;
 }
-
-/* Removes awkward gap on right of page */
-
-.hero-wrapper {
-    margin: 5px 0px 5px 0px;
-} 
 
 /* --------------------------------- Hover.css imports for styling */
 .hvr-grow {
@@ -119,4 +142,28 @@ main {
     margin-top: 15vh;
 }
 
+}
+
+/* media query: tablets and larger (768px and up) */
+
+@media (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    .nav-item {
+        display: flex;
+    }
+
+    .nav-item>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
