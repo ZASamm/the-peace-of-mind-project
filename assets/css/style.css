@@ -43,10 +43,28 @@ header {
 
 /* --------------------------------- Main Content */
 main {
-    margin-top: 75px;
+    margin-top: 52px;
+    font-family: "DM Sans", sans-serif;
 }
-/* --------------------------------- Jumbotron */
+/* --------------------------------- Hero */
 
+.hero {
+    background-color: #c1e7e3;
+    background-image: url("../images/hands-holding-a-smiling-face.png");
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    background-position: bottom;
+    background-size: 50%;
+    background-position-x: right;
+}
+
+.jumbotron {
+    opacity: 0.5;
+    width: 80%;
+    color: #6D7278;
+    margin-top: 24vh;
+}
 /* --------------------------------- Hover.css imports for styling */
 .hvr-grow {
     display: inline-block;
