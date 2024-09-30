@@ -16,7 +16,6 @@ Positive Affirmations: Use Bootstrap’s text utilities to include a section wit
 
 ## Description
 
-
 The Peace of Mind Project is a beginner-friendly website providing accessible information on mental health. It aims to help users recognise common mental health issues and manage stress through a supportive and organised layout.
 
 ## Features
@@ -27,16 +26,34 @@ The Peace of Mind Project is a beginner-friendly website providing accessible in
 
 - About section
 
-- Information cards on various mental health topics
+- Information cards on various mental health topics with links provided to external sources for further infomation.
 
-- Resource links to external mental health services
-
-- Section for positive affirmations
+- Carousel with posative messaging.
 
 - Footer with social media links
 
 ## UX
-(To be updated)
+
+Project planned on Miro - https://miro.com/app/board/uXjVLaOiO7s=/?share_link_id=282470269171
+
+### Inital design thoughts
+
+As this website is for mental health awareness, I wanted to create a simple flowing webpage that was brought a calming experience to the user with out being overloading to the user. I felt the colour plate used was extremly important as it sets the tone of the webpage
+
+#### Colour pallet
+- Seafoam Green (#C1E7E3): Evokes a refreshing, natural vibe.
+- Light Peach (#FFDACC): Gentle warmth that feels supportive.
+- Powder Blue (#E7EFF6): Adds a calming and clean feel.
+- Light Sand (#F4F1DE): For a soft, neutral background.
+- Slate Grey (#6D7278): For bold text and headers without being harsh.
+
+#### Typography
+
+Playfair Display - used for headers as its a stylish serif font that aligns with my concepts of bring a calming experience to the user.
+
+Roboto - used for main bodys of text as it is simple and highly readable emphasising the ease of use. 
+
+Font awesome for any icons used.
 
 ### User Stories
 
@@ -76,13 +93,12 @@ The Peace of Mind Project is a beginner-friendly website providing accessible in
 
 - Bootstrap 5
 
-## Setup and Installation 
 
-(To be updated)
+## Relfections
 
-## Usage
+### What worked
 
-(To be updated)
+### Furture Improvments
 
 ## Contributing
 
