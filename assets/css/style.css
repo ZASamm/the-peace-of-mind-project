@@ -14,19 +14,29 @@ h5 {
     font-weight: 500;
 }
 
-/* --------------------------------- Colour */
 
-.aboutus,
-.carousel-section {
-    min-width: 100%;
-    background-color: #b9d6d5;
-
-}
 
 /* jiggle fix */
 
 body {
     overflow-x: hidden;
+}
+
+
+
+
+/* --------------------------------- Colour */
+.carousel-section {
+    background-color: #EAF4F4;
+    ;
+}
+
+.card-section {
+    background-color: #A4C3B2;
+}
+
+.aboutus {
+    background-color: #EAF4F4;
 }
 
 /* --------------------------------- Header */
@@ -55,7 +65,7 @@ main {
 /* --------------------------------- Hero */
 
 .hero {
-    background-color: #c1e7e3;
+    background-color: #CCE3DE;
     background-image: url("../images/hands-holding-a-smiling-face.png");
     background-repeat: no-repeat;
     height: 90vh;
@@ -69,7 +79,6 @@ main {
 .jumbotron {
     opacity: 0.7;
     width: 80%;
-    color: #6D7278;
 }
 
 /* --------------------------------- Hover.css imports for styling */
@@ -94,12 +103,6 @@ main {
 /* --------------------------------- About us */
 
 
-
-.aboutus-item {
-    opacity: 0.7;
-    background-color: #6D7278;
-}
-
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -110,7 +113,7 @@ main {
 /* footer */
 
 footer {
-    background-color: #c1e7e3;
+    background-color: #CCE3DE;
     background-image: url("../images/hands-holding-a-smiling-face.png");
     background-repeat: no-repeat;
     width: 100%;
@@ -133,7 +136,7 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: #EAF4F4;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -142,7 +145,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: goldenrod;
+    background: #6B9080;
 }
 
 
@@ -162,7 +165,7 @@ footer {
     }
 
     .hero {
-        background-color: #c1e7e3;
+        background-color: #CCE3DE;
         background-image: url("../images/hands-holding-a-smiling-face.png");
         background-repeat: no-repeat;
         height: 100vh;
