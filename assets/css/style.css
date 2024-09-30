@@ -35,7 +35,7 @@ main {
     background-color: #c1e7e3;
     background-image: url("../images/hands-holding-a-smiling-face.png");
     background-repeat: no-repeat;
-    /* height: 90vh; */
+    height: 90vh;
     width: 100%;
     background-position: bottom;
     background-size: 50%;
