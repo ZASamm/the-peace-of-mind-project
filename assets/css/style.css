@@ -46,7 +46,7 @@ main {
 .jumbotron {
     opacity: 0.7;
     width: 80%;
-    color: #6D7278;;
+    color: #6D7278;
 }
 
 /* --------------------------------- Hover.css imports for styling */
@@ -96,6 +96,19 @@ main {
     /* margin-top: 15vh; */
 }
 
+}
+
+/* --------------------------------- About us */  
+
+.aboutus {
+    min-width: 100%;
+    background-color: #b9d6d5;
+
+}
+
+.aboutus-item {
+    opacity: 0.7;
+    background-color: #6D7278;
 }
 
 /* media query: tablets and larger (768px and up) */
