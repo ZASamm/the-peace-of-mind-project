@@ -10,9 +10,17 @@ h4,
 h5 {
     font-family: "Nanum Myeongjo", sans-serif;
     font-weight: 800;
+    letter-spacing: 2px;
 }
 
 /* --------------------------------- Colour */
+
+.aboutus,
+.carousel-section {
+    min-width: 100%;
+    background-color: #b9d6d5;
+
+}
 
 /* --------------------------------- Header */
 
@@ -109,11 +117,7 @@ main {
 
 /* --------------------------------- About us */
 
-.aboutus {
-    min-width: 100%;
-    background-color: #b9d6d5;
 
-}
 
 .aboutus-item {
     opacity: 0.7;
@@ -126,6 +130,44 @@ main {
     float: none;
 }
 
+
+/* footer */
+
+footer {
+    background-color: #c1e7e3;
+    background-image: url("../images/hands-holding-a-smiling-face.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 120px;
+    background-position: bottom;
+    background-size: 14%;
+    background-position-x: right;
+    display: absolute;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: goldenrod;
+}
 
 
 /* media query: tablets and larger (768px and up) */
