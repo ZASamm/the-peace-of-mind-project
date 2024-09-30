@@ -4,75 +4,29 @@
 
 /* --------------------------------- General */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
 /* --------------------------------- Colour */
 
 /* --------------------------------- Header */
 
-header {
-    background-color: #fff;
-    padding: 0 1rem;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 2px 2px #f4f4f4;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    top: 0;
-}
-
-#logo {
-    font-family: "Nanum Myeongjo", sans-serif;
-    font-weight: 700;
-}
-
-.logo-link {
-    text-decoration: none;
-    color: #3a3a3a;
-}
-
-
 /* --------------------------------- Nav */
+.navbar-brand {
+    font-family: "Nanum Myeongjo", sans-serif;
+    font-weight: 800;
+}
 
+.navbar {
+    box-shadow: 0 2px 2px #f4f4f4;
+    background-color: #fff;
+}
 
 .nav-item {
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
-}
-
-/* nav toggle */
-nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-}
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
+    padding-left: 1rem;
 }
 
 /* --------------------------------- Main Content */
 main {
-    margin-top: 52px;
     font-family: "DM Sans", sans-serif;
 }
 /* --------------------------------- Hero */
@@ -81,7 +35,7 @@ main {
     background-color: #c1e7e3;
     background-image: url("../images/hands-holding-a-smiling-face.png");
     background-repeat: no-repeat;
-    height: 90vh;
+    /* height: 90vh; */
     width: 100%;
     background-position: bottom;
     background-size: 50%;
@@ -139,7 +93,7 @@ main {
     opacity: 0.7;
     width: 80%;
     color: #6D7278;
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
 }
 
 }
@@ -147,23 +101,4 @@ main {
 /* media query: tablets and larger (768px and up) */
 
 @media (min-width: 768px) {
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    .nav-item {
-        display: flex;
-    }
-
-    .nav-item>li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
 }

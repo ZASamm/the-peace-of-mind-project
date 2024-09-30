@@ -20,31 +20,40 @@
 </head>
 <!-- Header -->
 <header>
-    <!-- Logo -->
-    <a href="index.html" class="logo-link">
-        <h1 id="logo">The Peace Of Mind Project</h1>
-    </a>
     <!-- Nav Bar -->
-    <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-    <nav>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link text-black hvr-grow" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black hvr-grow" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black hvr-grow" href="#">Info Cards</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black hvr-grow" href="#">Links</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black hvr-grow" href="#">Quotes</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The Peace Of Mind Project</a>
+            <div class="justify-content-end" style="text-align: end;">
+                <!-- Dropdown btn -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Dropdown list items -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-black hvr-grow" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black hvr-grow" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black hvr-grow" href="#">Info Cards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black hvr-grow" href="#">Links</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black hvr-grow" href="#">Quotes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </nav>
 </header>
 
@@ -72,7 +81,7 @@
             </div>
         </section>
         <!-- About -->
-        <section class="container-fluid about-section">
+        <section class="container-fluid about-section section-column">
             <div class="row">
                 <div class="col-md-8">
                     <h2>About Us</h2>
@@ -123,33 +132,33 @@
         </section>
         <!-- Info Cards -->
         <section class="container-fluid card-section">
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
                 <img src="assets/images/common-mental-health-issues.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h4>Recognizing Common Mental Health Issues</h4>
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-heading">Recognizing Common Mental Health Issues</h4>
                     <p class="card-text">Learn about signs and symptoms of conditions like anxiety, depression, and
                         stress. Early recognition is key to getting the right support.</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
                 <img src="assets/images/recognising-stress.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-heading">
                     <h4>Stress Management Techniques</h4>
                     <p class="card-text">Discover practical ways to manage stress in your daily life. From breathing
                         exercises to time management tips, find what works for you.</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
                 <img src="assets/images/self-care.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-heading">
                     <h4>Self-Care Tips</h4>
                     <p class="card-text">Explore simple self-care practices to boost your mental health. Small actions
                         can make a big difference in how you feel.</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
                 <img src="assets/images/professional-help.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-heading">
                     <h4>When to Seek Professional Help</h4>
                     <p class="card-text">Understanding when it's time to reach out to a mental health professional. Your
                         well-being is worth it.</p>
@@ -159,6 +168,7 @@
         </section>
         <!-- Resourse Links -->
         <section>
+
 
         </section>
         <!-- Carousel -->
@@ -170,6 +180,10 @@
     <footer>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
