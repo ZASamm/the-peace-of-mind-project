@@ -179,7 +179,34 @@ footer {
         opacity: 0.7;
         width: 80%;
         color: #6D7278;
-        /* margin-top: 15vh; */
+    }
+
+}
+
+/* media query: Moblies landscape (1000px and up) */
+
+@media (max-height: 600px) {
+
+     /* removes and adjusts some content from the jumbotron for better user experience on xs devices */
+    .hidden-content {
+        display: none;
+    }
+
+    .hero {
+        background-color: #CCE3DE;
+        background-image: url("../images/hands-holding-a-smiling-face.png");
+        background-repeat: no-repeat;
+        height: 150vh;
+        width: 100%;
+        background-position: bottom;
+        background-size: 50%;
+        background-position-x: right;
+    }
+
+    .jumbotron {
+        opacity: 0.7;
+        width: 80%;
+        color: #6D7278;
     }
 
 }
