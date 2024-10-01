@@ -48,7 +48,7 @@ body {
 
 .navbar {
     box-shadow: 0 2px 2px #f4f4f4;
-    background-color: #fff;
+    background-color: rgba(250, 250, 250, 0.9)
 }
 
 .nav-item {
@@ -72,7 +72,6 @@ main {
     background-position: bottom;
     background-size: 50%;
     background-position-x: right;
-    display: absolute;
 }
 
 .jumbotron {
@@ -105,22 +104,32 @@ main {
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
-    float: none;
-}
+    float: none;}
 
 
 /* --------------------------------- Cards */
 
-.card-image {
-    max-width: 100%;
-    height: auto;
-    object-fit: fill;
+
+/* card image fix */
+
+.centerImage {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
 
+.card {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
 
-/* footer */
+
+
+/* --------------------------------- footer */
 
 footer {
     background-color: #CCE3DE;
@@ -161,22 +170,19 @@ footer {
     font-size: small;
 }
 
-/* card image fix */
-.centerImage {
-    object-fit: cover;
-    object-position: center center;
-    width: 100%;
-    height: 100%;
-    /* overflow: hidden; */
-}
 
-.card-wrapper {
-       padding: 40px 40px;
-}
 
 /* media query: tablets and larger (768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+/* card padding */
+
+.card-wrapper {
+    padding: 40px 40px;
+}
+
+}
 
 /* media query: Mobiles (575px and up) */
 
