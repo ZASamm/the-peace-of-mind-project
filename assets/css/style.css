@@ -170,6 +170,9 @@ footer {
     /* overflow: hidden; */
 }
 
+.card-wrapper {
+       padding: 40px 40px;
+}
 
 /* media query: tablets and larger (768px and up) */
 
