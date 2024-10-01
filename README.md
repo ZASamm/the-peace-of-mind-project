@@ -34,19 +34,17 @@ The Peace of Mind Project is a beginner-friendly website providing accessible in
 
 ## UX
 
-Project planned on Miro - https://miro.com/app/board/uXjVLaOiO7s=/?share_link_id=282470269171
+Project planned on Miro - [My Miro Board](https://miro.com/app/board/uXjVLaOiO7s=/?share_link_id=282470269171)
 
 ### Inital design thoughts
 
 As this website is for mental health awareness, I wanted to create a simple flowing webpage that was brought a calming experience to the user with out being overloading to the user. I felt the colour plate used was extremely important as it sets the tone of the webpage
 
 #### Colour pallet
-- Seafoam Green (#C1E7E3): Evokes a refreshing, natural vibe.
-- Light Peach (#FFDACC): Gentle warmth that feels supportive.
-- Powder Blue (#E7EFF6): Adds a calming and clean feel.
-- Light Sand (#F4F1DE): For a soft, neutral background.
-- Slate Grey (#6D7278): For bold text and headers without being harsh.
 
+I wanted use a colour pallette that kept inline with the clean and supportive experience. For that reason I wanted to use a green pallette as they often promote the feelings of renewal, tranquility, growth, and inspiration.
+
+![Colour Pallette](assets/images/colour-palette.png)
 #### Typography
 
 Playfair Display - used for headers as its a stylish serif font that aligns with my concepts of bring a calming experience to the user.
@@ -56,8 +54,6 @@ Roboto - used for main bodies of text as it is simple and highly readable emphas
 Font awesome for any icons used.
 
 ### User Stories
-
-- <b>As a user</b>, I want to feel supported and not judged while navigating the website, so I feel safe to explore mental health resources.
 
 - <b>As a user</b>, I want the information on the website to be presented in a simple, beginner-friendly format, so I can learn without feeling overwhelmed.
 
@@ -95,7 +91,7 @@ Font awesome for any icons used.
 
 ## Testing:
 
-https://validator.w3.org/ 
+[W3C Validator](https://validator.w3.org/) 
 
 Round 1:
 
@@ -118,25 +114,38 @@ From line 150, column 14; to line 150, column 21
 
 Fix - removed
 
+### Lighthouse
 
-## Relfections
+I ran both mobile devices and desktop through lighthouse to check for any major issues, results as follows:
 
-### What worked
+### Desktop
+![lighthouse Desktop result](assets/images/light-house-dt.png)
 
-### Furture Improvments
+### Mobile Devices
 
-## Contributing
+![lighthouse Mobile result](assets/images/light-house-mobile.png)
 
-(To be updated)
 
-## License
+### User Stories
 
-(To be updated)
+Reflections on user stories, and areas of  my page I felt meet the criteria:
 
-## Contact
+- <b>As a user</b>, I want the information on the website to be presented in a simple, beginner-friendly format, so I can learn without feeling overwhelmed.
 
-(To be updated)
 
-## Acknowledgments
 
-(To be updated)
+
+## Reflections
+
+
+## Credit
+
+- AI used to assist with text for content generation and user stories. [Chat GPT](https://chatgpt.com/) & [Claude](https://claude.ai/)
+
+- Font awesome used for any icons present and fonts used from google fonts
+
+- Images used from [Pexels](https://www.pexels.com/)
+
+- Inspiration for some elements take from [Code Institute](https://codeinstitute.net/) walkthrough projects, such as [Love-Running](https://github.com/ZASamm/love-running) and [Love-Rosie](https://github.com/ZASamm/love-Rosie)
+
+- Troubleshooting through Slack Coding coach and fellow students enrolled on the Bootcamp
