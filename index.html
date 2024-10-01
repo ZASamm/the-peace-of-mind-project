@@ -41,16 +41,13 @@
                                 <a class="nav-link text-black hvr-grow" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-black hvr-grow" href="#">About</a>
+                                <a class="nav-link text-black hvr-grow" href="#aboutus">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-black hvr-grow" href="#">Info Cards</a>
+                                <a class="nav-link text-black hvr-grow" href="#cardsection">Info Cards</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-black hvr-grow" href="#">Links</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black hvr-grow" href="#">Quotes</a>
+                                <a class="nav-link text-black hvr-grow" href="#quotes">Quotes</a>
                             </li>
                         </ul>
                     </div>
@@ -81,7 +78,7 @@
             </div>
         </section>
         <!-- About -->
-        <section class="aboutus">
+        <section class="aboutus" id="aboutus">
             <div class="container-fluid aboutus d-flex align-items-center section-column">
                 <div class="row gx-5">
                     <div class="col-sm-10 p-3">
@@ -124,76 +121,100 @@
             </div>
         </section>
         <!-- Info Cards -->
-        <section class="card-section p-5">
+        <section class="card-section p-5" id="cardsection">
             <div class="container my-4 py-5">
                 <div class="row row-cols-1 row-cols-md-2 g-2 d-flex justify-content-center">
                     <!-- Card 1 -->
-                    <div class="card mb-3 my-5" style="max-width: 540px;">
+                    <div class="container-fluid card mb-3 my-5 p-0" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="assets/images/common-mental-health-issues.jpg" class="img-fluid rounded-start"
-                                    alt="...">
+                                <img src="assets/images/common-mental-health-issues.jpg"
+                                    class="card-image img-fluid rounded-start" alt="girl holding coffee in the woods">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Recognizing Common Mental Health Issues</h5>
-                                    <p class="card-text">Learn about signs and symptoms of conditions like anxiety,
-                                        depression
-                                        and stress. Early recognition is key to getting the right support.</p>
-                                    <a href="#" class="btn">Go somewhere</a>
+                                    <h4 class="card-title">Recognising Common Mental Health Issues</h4>
+                                    <hr>
+                                    <p class="card-text">Recognising the signs of mental health struggles is the first
+                                        step toward getting the support you need. Common signs may include feeling
+                                        overwhelmed, difficulty sleeping, withdrawing from loved ones, or struggling to
+                                        cope with daily tasks. If you're unsure whether you or someone you care about is
+                                        experiencing mental health challenges, explore this helpful guide on the Signs
+                                        You May Be Struggling to Cope from Samaritans.</p>
+                                    <a href="https://www.samaritans.org/how-we-can-help/if-youre-having-difficult-time/signs-you-may-be-struggling-cope/?gad_source=1&gclid=EAIaIQobChMIhYK-_e3siAMVlZqDBx3YAyqTEAAYAiAAEgIC7vD_BwE"
+                                        target="_blank" class="btn hvr-grow">Take me there</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="container-fluid card mb-3 p-0" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="assets/images/recognising-stress.jpg" class="img-fluid rounded-start"
-                                    alt="...">
+                            <div class="col-md-4 p-0">
+                                <img src="assets/images/recognising-stress.jpg"
+                                    class="card-image img-fluid rounded-start"
+                                    alt="girl laying back with book on face at desk">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Stress Management Techniques</h5>
-                                    <p class="card-text">Discover practical ways to manage stress in your daily life.
-                                        From
-                                        breathing exercises to time management tips, find what works for you..</p>
-                                    <a href="#" class="btn">Go somewhere</a>
+                                    <h4 class="card-title">Stress Management Techniques</h4>
+                                    <hr>
+                                    <p class="card-text">Managing stress is essential for maintaining your mental
+                                        well-being. There are many effective techniques, from practicing mindfulness and
+                                        deep breathing to making time for relaxation and self-care. Understanding what
+                                        triggers your stress and finding healthy ways to cope can make a big difference.
+                                        For more practical tips on how to manage and reduce stress, check out this
+                                        resource from the Mental Health Foundation on How to Manage and Reduce Stress.
+                                    </p>
+                                    <a href="https://www.mentalhealth.org.uk/explore-mental-health/publications/how-manage-and-reduce-stress"
+                                        target="_blank" class="btn hvr-grow">Take me there</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Card 3 -->
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="container-fluid card mb-3 p-0" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="assets/images/self-care.jpg" class="img-fluid rounded-start" alt="...">
+                            <div class="col-md-4 p-0">
+                                <img src="assets/images/self-care.jpg" class="card-image img-fluid rounded-start"
+                                    alt="coffee and leaves on white sheet">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Self-Care Tips</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
-                                    <a href="#" class="btn">Go somewhere</a>
+                                    <h4 class="card-title text-align-center">Self-Care Tips</h4>
+                                    <hr>
+                                    <p class="card-text">Taking care of your mental health starts with self-care. Simple
+                                        practices like maintaining a healthy routine, getting enough rest, and engaging
+                                        in activities that bring you joy can make a big difference in your emotional
+                                        well-being. Prioritizing yourself isn't selfish—it's essential. For more ideas
+                                        on how to take care of your mental health, explore these helpful Self-Care Tips
+                                        from Mind.</p>
+                                    <a href="https://www.mind.org.uk/information-support/types-of-mental-health-problems/mental-health-problems-introduction/self-care/"
+                                        target="_blank" class="btn hvr-grow">Take me there</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Card 4 -->
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="container-fluid card mb-3 px-0" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="assets/images/professional-help.jpg" class="img-fluid rounded-start"
-                                    alt="...">
+                            <div class="col-md-4 p-0">
+                                <img src="assets/images/professional-help.jpg" class="card-image rounded-start"
+                                    alt="two people sitting in session">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">When to Seek Professional Help</h5>
-                                    <p class="card-text">Understanding when it's time to reach out to a mental health
-                                        professional. Your
-                                        well-being is worth it.</p>
-                                    <a href="#" class="btn">Go somewhere</a>
+                                    <h4 class="card-title">When to Seek Professional Help</h4>
+                                    <hr>
+                                    <p class="card-text">While self-care and stress management are important, sometimes
+                                        professional support is necessary to navigate mental health challenges. If
+                                        you're feeling persistently overwhelmed, struggling to cope, or your mental
+                                        health is affecting your daily life, reaching out to a professional can provide
+                                        the guidance and treatment you need. For more information on when and how to
+                                        seek help, visit the NHS Mental Health Services page to explore the available
+                                        support options.</p>
+                                    <a href="https://www.nhs.uk/nhs-services/mental-health-services/" target="_blank"
+                                        class="btn hvr-grow">Take me there</a>
                                 </div>
                             </div>
                         </div>
@@ -201,17 +222,11 @@
                 </div>
             </div>
         </section>
-        <!-- Resourse Links -->
-        <section>
-
-
-        </section>
         <!-- Carousel -->
-        <section class="carousel-section">
+        <section class="carousel-section" id="quotes">
             <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
                         <div style="min-height: 140px;">
                             <div class="carousel-caption d-block">
                                 <p>You are braver than you believe, stronger than you seem, and smarter than you think.
@@ -220,7 +235,6 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
                         <div style="min-height: 140px;">
                             <div class="carousel-caption d-block">
                                 <p>Every day may not be good, but there's something good in every day.</p>
@@ -228,7 +242,6 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
                         <div style="min-height: 140px;">
                             <div class="carousel-caption d-block">
                                 <p>Believe you can and you're halfway there.</p>
@@ -236,7 +249,6 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
                         <div style="min-height: 140px;">
                             <div class="carousel-caption d-block">
                                 <p>Small steps lead to big changes.</p>
@@ -244,7 +256,6 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
                         <div style="min-height: 140px;">
                             <div class="carousel-caption d-block">
                                 <p>Believe in yourself, always.</p>

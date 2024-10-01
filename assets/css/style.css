@@ -26,7 +26,9 @@ body {
 
 
 /* --------------------------------- Colour */
-.carousel-section {
+.carousel-section,
+.aboutus,
+.card {
     background-color: #EAF4F4;
     ;
 }
@@ -35,9 +37,6 @@ body {
     background-color: #A4C3B2;
 }
 
-.aboutus {
-    background-color: #EAF4F4;
-}
 
 /* --------------------------------- Header */
 
@@ -148,6 +147,14 @@ footer {
     background: #6B9080;
 }
 
+/* --------------------------------- Cards */
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    overflow: hidden;
+}
 
 /* media query: tablets and larger (768px and up) */
 
@@ -187,7 +194,7 @@ footer {
 
 @media (max-height: 600px) {
 
-     /* removes and adjusts some content from the jumbotron for better user experience on xs devices */
+    /* removes and adjusts some content from the jumbotron for better user experience on xs devices */
     .hidden-content {
         display: none;
     }
