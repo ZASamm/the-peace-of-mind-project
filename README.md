@@ -93,6 +93,31 @@ Font awesome for any icons used.
 
 - Bootstrap 5
 
+## Testing:
+
+https://validator.w3.org/ 
+
+Round 1:
+
+index.html 
+
+"Error: Attribute section-heading not allowed on element h2 at this point."
+From line 86, column 25; to line 86, column 44
+
+Fix - class attribute added.
+
+"Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
+From line 255, column 9; to line 255, column 54
+
+Ignored as headings not needed in carousel.
+
+style.css
+
+Error: display: absolute is not a display value.
+From line 150, column 14; to line 150, column 21
+
+Fix - removed
+
 
 ## Relfections
 
