@@ -128,6 +128,13 @@ main {
 }
 
 
+/* --------------------------------- Carousel */
+
+.carousel-caption {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
 
 /* --------------------------------- footer */
 
