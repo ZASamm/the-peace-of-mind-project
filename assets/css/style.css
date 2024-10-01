@@ -109,6 +109,17 @@ main {
 }
 
 
+/* --------------------------------- Cards */
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+
+
 /* footer */
 
 footer {
@@ -128,15 +139,14 @@ footer {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
     text-align: center;
-    color: #EAF4F4;
-    background: #8f8f8f;
+    padding: 50px 10px;
+    font-size: 70px;
+    line-height: 7px;
+    color: #6B9080;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -144,17 +154,13 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #6B9080;
+    background: #EAF4F4;
 }
 
-/* --------------------------------- Cards */
-
-.card-image {
-    max-width: 100%;
-    height: auto;
-    object-fit: fill;
-    overflow: hidden;
+.copyright {
+    font-size: small;
 }
+
 
 /* media query: tablets and larger (768px and up) */
 
@@ -188,6 +194,21 @@ footer {
         color: #6D7278;
     }
 
+    .social-links li a i {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        text-align: center;
+        padding: 50px 10px;
+        font-size: 20px;
+        line-height: 7px;
+        color: #6B9080;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+    
 }
 
 /* media query: Moblies landscape (1000px and up) */
