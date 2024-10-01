@@ -38,7 +38,7 @@ Project planned on Miro - https://miro.com/app/board/uXjVLaOiO7s=/?share_link_id
 
 ### Inital design thoughts
 
-As this website is for mental health awareness, I wanted to create a simple flowing webpage that was brought a calming experience to the user with out being overloading to the user. I felt the colour plate used was extremly important as it sets the tone of the webpage
+As this website is for mental health awareness, I wanted to create a simple flowing webpage that was brought a calming experience to the user with out being overloading to the user. I felt the colour plate used was extremely important as it sets the tone of the webpage
 
 #### Colour pallet
 - Seafoam Green (#C1E7E3): Evokes a refreshing, natural vibe.
@@ -51,7 +51,7 @@ As this website is for mental health awareness, I wanted to create a simple flow
 
 Playfair Display - used for headers as its a stylish serif font that aligns with my concepts of bring a calming experience to the user.
 
-Roboto - used for main bodys of text as it is simple and highly readable emphasising the ease of use. 
+Roboto - used for main bodies of text as it is simple and highly readable emphasising the ease of use. 
 
 Font awesome for any icons used.
 
