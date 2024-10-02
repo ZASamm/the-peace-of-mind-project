@@ -109,6 +109,12 @@ Font awesome for any icons used.
 
 ## Testing:
 
+[Accessability checker](https://www.accessibilitychecker.org/)
+
+![Accessability check screen](assets/images/accessibility-check.png)
+
+Fix - About Us section heading changed to h3
+
 [W3C Validator](https://validator.w3.org/) 
 
 index.html 
