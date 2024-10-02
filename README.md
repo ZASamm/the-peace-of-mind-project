@@ -64,19 +64,34 @@ Font awesome for any icons used.
 
 - <b>As the site owner</b>, I want to include visuals and calming colours, so the design supports the mental well-being theme of the site.
 
-### User stories Reflections
+### User stories Reflections & Acceptance Criteria
 
 #### Must haves
- - Beginner-Friendly Information
- - Mobile-Friendly Access
- - Well-Organised Navigation
+ 1. Beginner-Friendly Information
+ - Content is easy to read
+ - Broken down into small sections
+
+ 2. Mobile-Friendly Access
+- Website displays well on smartphones and tablets. 
+- Responsive design
+
+ 3. Well-Organised Navigation
+ - Menu labels are clear and intuitive.
 
  #### Should have
- - Visuals and Calming Colors
- - Clean and Uncluttered Layout
+ 1. Visuals and Calming Colors
+ - Images should be relevant and supportive of the theme.
+ - Provide alt text for all images for accessibility.
+ - Use at least three calming colors for a cohesive look.
+
+ 2. Clean and Uncluttered Layout
+ - Use a maximum of two different fonts.
+ - Clear spacing using throughout the webpage.
 
 #### Could have
-- Resources and External Links
+1. Resources and External Links
+- External links open in a new tab.
+- A resource section is present with categorised links.
 
 # Wireframe & Initial Design
 
