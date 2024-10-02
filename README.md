@@ -80,6 +80,11 @@ Font awesome for any icons used.
 
 # Wireframe & Initial Design
 
+<b>Page 1</b>: Contains nav bar jumbotron with call to action button. Responsive nav bar for mobile devices.
+<b>Page 2</b>: Contains information cards and images.
+<b>Page 3</b>: Contains external links, a carousel containing positive messaging and a footer with links to socials.
+
+
 ### Mobile
 ![mobile wireframes](assets/images/Wireframes-mobile.png)
 
@@ -174,6 +179,23 @@ Fix - links added to href.
 
 ![Resources and External Links](assets/images/external-links.png)
 
+## Reflection on Development Process
+
+### Successes
+- <b>Responsive Design</b>: Successfully implemented a responsive layout using Bootstrap, ensuring the website is accessible on various devices.
+- <b>Content Organisation</b>: Effectively used Bootstrap cards to present mental health information in a clear and organised way.
+- <b>Colour Scheme</b>: Created a calming and supportive atmosphere through a well-chosen colour palette, contributing to the overall user experience.
+
+### Challenges
+- <b>Bootstrap Customisation</b>: While Bootstrap provided a great starting point, customising it to fit the specific needs of my design goals required some additional learning, experimentation and troubleshooting support.
+- <b>Scope and time management</b>: Keeping focused on creating creating a MVP proved tricky at times, I felt I spent too long working on small details which often put me off track of sprit goals I had set with in time limits.
+
+### Final Thoughts
+
+Developing this mental health information website has been a huge learning experience. It gave me hands-on practice with HTML, CSS, and Bootstrap, whilst also highlighting the importance of user-centered design.
+The project reinforced the significance of planning and wireframing before diving into coding especially when time constrains are added. It also showed me areas that I did and did not understand in HTML, CSS, and Bootstrap which has been a great learning experience. 
+
+My main take away is the enjoyment I had creating this website, of course there are areas to improve and work upon, but it has deepened my want to learn and explore more in font and back end development.
 
 ## Credit
 
