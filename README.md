@@ -179,6 +179,12 @@ Fix - links added to href.
 
 ![Resources and External Links](assets/images/external-links.png)
 
+## Deployment
+
+Main branch deployed using GitHub Pages. 
+
+No challenges faced during deployment, appeared and functioned as expected.
+
 ## Reflection on Development Process
 
 ### Successes
