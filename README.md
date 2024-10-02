@@ -4,13 +4,6 @@ First individual project with Code institute.
 
 ![Mock up](assets/images/mock-up.png)
 
-### The Breif
-
-#### External User’s Goal:
-The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
-#### Site Owner’s Goal:
-The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
-
 ## Description
 
 The Peace of Mind Project is a beginner-friendly website providing accessible information on mental health. It aims to help users recognise common mental health issues and manage stress through a supportive and organised layout.
@@ -19,7 +12,7 @@ The Peace of Mind Project is a beginner-friendly website providing accessible in
 
 - Nav bar with Logo
 
-- Hero section with positive messaging
+- Hero section with positive messaging and call to action
 
 - About section
 
@@ -30,6 +23,13 @@ The Peace of Mind Project is a beginner-friendly website providing accessible in
 - Footer with social media links
 
 ## UX
+### The Breif
+
+#### External User’s Goal:
+The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
+#### Site Owner’s Goal:
+The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
+
 
 Project planned on Miro - [My Miro Board](https://miro.com/app/board/uXjVLaOiO7s=/?share_link_id=282470269171)
 
@@ -136,7 +136,7 @@ I ran both mobile devices and desktop through lighthouse to check for any major 
 
 ![lighthouse Mobile result](assets/images/light-house-mobile.png)
 
-#### Feature test
+### Feature Testing
 
 Whilst testing all the features, I noticed that the social links where not working.
 
@@ -148,15 +148,31 @@ Fix - links added to href.
 |---------------|---------------|---------------|
 | Beginner-Friendly Information | Small sippets of digestible information displayed in cards, with straightforward language used | To enhance this further in future I would consider breaking down the topics with bullet points offering clear snapshots of information.
 | Mobile-Friendly Access | Mobile first design followed, responsive design elements used with media quires and bootstrap classes | Achieved, although please see below in regards to the nav bar.
-| Well-Organised Navigation | Clear Navigation displayed at the top of the page, links working taking user to relevant sections of the page | Nav bar is clear and accessible, however the nav bar is currently fixed at the top for mobile devices. This is something I would adjust in further releases to remove the fix when used on smaller devices.
-| Visuals and Calming Colors | Simple colour pallette used with  tones of greens contrasting with dark font colouring to ensure accessibility whilst also creating a clamming user experience. | I feel this was successfully achieved through my simple colour pallette mainly focusing on one colour.
+| Well-Organised Navigation | Clear Navigation displayed at the top of the page and footer contains easy navigation to social links. Links working taking user to relevant sections of the page and external sites | Nav bar is clear and accessible, however the nav bar is currently fixed at the top for mobile devices. This is something I would adjust in further releases to remove the fix when used on smaller devices.
+| Visuals and Calming Colors | Simple colour pallette used with  tones of greens contrasting with dark font colouring to ensure accessibility whilst also creating a clamming user experience | I feel this was successfully achieved through my simple colour pallette mainly focusing on one colour.
 | Clean and Uncluttered Layout | Minimalist design followed with clear sections for the user defined with colours | If I were to add more info to The Peace Of Mind Project, I would consider adding further pages to keep each page clean and uncluttered really focusing on the supportive and organised layout I wanted to achieve.
 | Resources and External Links | Cards used have clear buttons taking users to websites | Including the links in the info cards gives the user clear direction of what the links are used for. In future releases I would consider adding an additional page for links along as there is lots of useful information that will help users.
 
 
+#### Beginner-Friendly Information
 
+![Card Page](assets/images/cards-page.png)
 
+#### Mobile-Friendly Access
 
+![Mobile friendly access](assets/images/drop-down-mobile-small.png) ![Landscape mobile](assets/images/landscape-mobile.png)
+
+#### Well-Organised Navigation
+
+![Footer Socials Navigation](assets/images/carousel.png)
+
+#### Visuals and Calming Colors & Clean and Uncluttered Layout
+
+![About section](assets/images/clean-layout.png)
+
+#### Resources and External Links
+
+![Resources and External Links](assets/images/external-links.png)
 
 
 ## Credit
