@@ -23,7 +23,7 @@ The Peace of Mind Project is a beginner-friendly website providing accessible in
 - Footer with social media links
 
 ## UX
-### The Breif
+### The Brief
 
 #### External User’s Goal:
 The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
@@ -154,7 +154,7 @@ Fix - links added to href.
 | Beginner-Friendly Information | Small sippets of digestible information displayed in cards, with straightforward language used | To enhance this further in future I would consider breaking down the topics with bullet points offering clear snapshots of information.
 | Mobile-Friendly Access | Mobile first design followed, responsive design elements used with media quires and bootstrap classes | Achieved, although please see below in regards to the nav bar.
 | Well-Organised Navigation | Clear Navigation displayed at the top of the page and footer contains easy navigation to social links. Links working taking user to relevant sections of the page and external sites | Nav bar is clear and accessible, however the nav bar is currently fixed at the top for mobile devices. This is something I would adjust in further releases to remove the fix when used on smaller devices.
-| Visuals and Calming Colors | Simple colour pallette used with  tones of greens contrasting with dark font colouring to ensure accessibility whilst also creating a clamming user experience | I feel this was successfully achieved through my simple colour pallette mainly focusing on one colour.
+| Visuals and Calming Colors | Simple colour pallette used with  tones of greens contrasting with dark font colouring to ensure accessibility whilst also creating a claming user experience | I feel this was successfully achieved through my simple colour pallette mainly focusing on one colour.
 | Clean and Uncluttered Layout | Minimalist design followed with clear sections for the user defined with colours | If I were to add more info to The Peace Of Mind Project, I would consider adding further pages to keep each page clean and uncluttered really focusing on the supportive and organised layout I wanted to achieve.
 | Resources and External Links | Cards used have clear buttons taking users to websites | Including the links in the info cards gives the user clear direction of what the links are used for. In future releases I would consider adding an additional page for links along as there is lots of useful information that will help users.
 
