@@ -80,9 +80,9 @@ Font awesome for any icons used.
 
 # Wireframe & Initial Design
 
-<b>Page 1</b>: Contains nav bar jumbotron with call to action button. Responsive nav bar for mobile devices.
-<b>Page 2</b>: Contains information cards and images.
-<b>Page 3</b>: Contains external links, a carousel containing positive messaging and a footer with links to socials.
+- <b>Page 1</b>: Contains nav bar jumbotron with call to action button. Responsive nav bar for mobile devices. About section.
+- <b>Page 2</b>: Contains information cards and images.
+- <b>Page 3</b>: Contains external links, a carousel containing positive messaging and a footer with links to socials.
 
 
 ### Mobile
