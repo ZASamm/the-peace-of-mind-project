@@ -35,7 +35,7 @@ Project planned on Miro - [My Miro Board](https://miro.com/app/board/uXjVLaOiO7s
 
 ### Inital design thoughts
 
-As this website is for mental health awareness, I wanted to create a simple flowing webpage that was brought a calming experience to the user with out being overloading to the user. I felt the colour plate used was extremely important as it sets the tone of the webpage
+As this website is for mental health awareness, I wanted to create a simple flowing webpage that brought a calming experience to the user with out being overloading to the user. I felt the colour pallette used was extremely important as it sets the tone of the webpage
 
 #### Colour pallet
 
