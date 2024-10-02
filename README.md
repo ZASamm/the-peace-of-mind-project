@@ -2,17 +2,14 @@
 
 First individual project with Code institute.
 
+![Mock up](assets/images/mock-up.png)
+
 ### The Breif
 
 #### External User’s Goal:
 The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
 #### Site Owner’s Goal:
 The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
-#### Potential Features might Include:
-Hero Section with Positive Messaging: A Bootstrap Jumbotron with an encouraging message about mental health, using a calming colour scheme and a simple background image.
-Information Cards: Use Bootstrap’s card components to present mental health tips and common issues, providing a visually appealing way to organise content.
-Resource Links: A grid layout for external links to mental health resources, styled with Bootstrap buttons to make them stand out.
-Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
 
 ## Description
 
@@ -26,9 +23,9 @@ The Peace of Mind Project is a beginner-friendly website providing accessible in
 
 - About section
 
-- Information cards on various mental health topics with links provided to external sources for further infomation.
+- Information cards on various mental health topics with links provided to external sources for further information.
 
-- Carousel with posative messaging.
+- Carousel with positive messaging.
 
 - Footer with social media links
 
@@ -42,7 +39,7 @@ As this website is for mental health awareness, I wanted to create a simple flow
 
 #### Colour pallet
 
-I wanted use a colour pallette that kept inline with the clean and supportive experience. For that reason I wanted to use a green pallette as they often promote the feelings of renewal, tranquility, growth, and inspiration.
+I wanted to use a colour pallette that kept inline with the clean and supportive experience. For that reason I wanted to use a green pallette as that often promote the feelings of renewal, tranquility, growth, and inspiration.
 
 ![Colour Pallette](assets/images/colour-palette.png)
 #### Typography
@@ -57,15 +54,15 @@ Font awesome for any icons used.
 
 - <b>As a user</b>, I want the information on the website to be presented in a simple, beginner-friendly format, so I can learn without feeling overwhelmed.
 
-- <b>As a user</b>, I want to easily find basic information about mental health issues, so I can better understand what I or others may be experiencing.
-
-- <b>As a user</b>, I want tips on managing stress that are easy to follow, so I can use them in my daily life.
-
 - <b>As a user</b>, I want mobile-friendly access to the website, so I can browse on any device comfortably.
 
 - <b>As a user</b>, I want the website to be well-organized with clear navigation, so I can find the information I need without confusion.
 
-- <b>As a user</b>, I want to quickly identify signs and symptoms of common mental health conditions, so I can recognize them in myself or others.
+- <b>As the site owner</b>, I want the site layout to be clean and uncluttered, so users can easily navigate and absorb the information without distraction.
+
+- <b>As the site owner</b>, I want to include resources and external links, so users can seek further help if needed.
+
+- <b>As the site owner</b>, I want to include visuals and calming colours, so the design supports the mental well-being theme of the site.
 
 # Wireframe & Initial Design
 
@@ -88,6 +85,8 @@ Font awesome for any icons used.
 - CSS3
 
 - Bootstrap 5
+
+- Gitpod - cloud IDE
 
 ## Testing:
 
@@ -118,19 +117,22 @@ Fix - removed
 
 I ran both mobile devices and desktop through lighthouse to check for any major issues, results as follows:
 
-### Desktop
+#### Desktop
 ![lighthouse Desktop result](assets/images/light-house-dt.png)
 
-### Mobile Devices
+#### Mobile Devices
 
 ![lighthouse Mobile result](assets/images/light-house-mobile.png)
 
+#### Feature test
+
+Whilst testing all the features, I noticed that the social links where not working.
+
+Fix - links added to href.
 
 ### User Stories
 
 Reflections on user stories, and areas of  my page I felt meet the criteria:
-
-- <b>As a user</b>, I want the information on the website to be presented in a simple, beginner-friendly format, so I can learn without feeling overwhelmed.
 
 
 
@@ -148,4 +150,4 @@ Reflections on user stories, and areas of  my page I felt meet the criteria:
 
 - Inspiration for some elements take from [Code Institute](https://codeinstitute.net/) walkthrough projects, such as [Love-Running](https://github.com/ZASamm/love-running) and [Love-Rosie](https://github.com/ZASamm/love-Rosie)
 
-- Troubleshooting through Slack Coding coach and fellow students enrolled on the Bootcamp
+- Troubleshooting through Code Institutes Slack channels and Coding Coach and fellow students enrolled on the Bootcamp
