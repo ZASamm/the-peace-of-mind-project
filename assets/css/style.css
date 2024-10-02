@@ -96,7 +96,8 @@ main {
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
-    float: none;}
+    float: none;
+}
 
 
 /* --------------------------------- Cards */
@@ -124,8 +125,7 @@ main {
 
 .carousel-caption {
     font-family: "Roboto", sans-serif;
-    font-size: medium;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* --------------------------------- footer */
@@ -167,11 +167,11 @@ footer {
 
 @media (min-width: 768px) {
 
-/* card padding */
+    /* card padding */
 
-.card-wrapper {
-    padding: 40px 40px;
-}
+    .card-wrapper {
+        padding: 40px 40px;
+    }
 
 }
 
@@ -229,7 +229,7 @@ footer {
         width: 80%;
         color: #6D7278;
     }
-  
+
     .social-links li a i {
         width: 60px;
         height: 60px;
