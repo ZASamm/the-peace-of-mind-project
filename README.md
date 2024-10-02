@@ -64,6 +64,20 @@ Font awesome for any icons used.
 
 - <b>As the site owner</b>, I want to include visuals and calming colours, so the design supports the mental well-being theme of the site.
 
+### User stories Reflections
+
+#### Must haves
+ - Beginner-Friendly Information
+ - Mobile-Friendly Access
+ - Well-Organised Navigation
+
+ #### Should have
+ - Visuals and Calming Colors
+ - Clean and Uncluttered Layout
+
+#### Could have
+- Resources and External Links
+
 # Wireframe & Initial Design
 
 ### Mobile
@@ -91,8 +105,6 @@ Font awesome for any icons used.
 ## Testing:
 
 [W3C Validator](https://validator.w3.org/) 
-
-Round 1:
 
 index.html 
 
@@ -132,12 +144,19 @@ Fix - links added to href.
 
 ### User Stories
 
-Reflections on user stories, and areas of  my page I felt meet the criteria:
+| User Stories  | Website Feature | Reflections |
+|---------------|---------------|---------------|
+| Beginner-Friendly Information | Small sippets of digestible information displayed in cards, with straightforward language used | To enhance this further in future I would consider breaking down the topics with bullet points offering clear snapshots of information.
+| Mobile-Friendly Access | Mobile first design followed, responsive design elements used with media quires and bootstrap classes | Achieved, although please see below in regards to the nav bar.
+| Well-Organised Navigation | Clear Navigation displayed at the top of the page, links working taking user to relevant sections of the page | Nav bar is clear and accessible, however the nav bar is currently fixed at the top for mobile devices. This is something I would adjust in further releases to remove the fix when used on smaller devices.
+| Visuals and Calming Colors | Simple colour pallette used with  tones of greens contrasting with dark font colouring to ensure accessibility whilst also creating a clamming user experience. | I feel this was successfully achieved through my simple colour pallette mainly focusing on one colour.
+| Clean and Uncluttered Layout | Minimalist design followed with clear sections for the user defined with colours | If I were to add more info to The Peace Of Mind Project, I would consider adding further pages to keep each page clean and uncluttered really focusing on the supportive and organised layout I wanted to achieve.
+| Resources and External Links | Cards used have clear buttons taking users to websites | Including the links in the info cards gives the user clear direction of what the links are used for. In future releases I would consider adding an additional page for links along as there is lots of useful information that will help users.
 
 
 
 
-## Reflections
+
 
 
 ## Credit
